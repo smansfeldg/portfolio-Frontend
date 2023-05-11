@@ -23,6 +23,8 @@ import { AddButtonComponent } from './componentes/edit-component/add-button/add-
 import { DeleteButtonComponent } from './componentes/edit-component/delete-button/delete-button.component';
 import { EditButtonComponent } from './componentes/edit-component/edit-button/edit-button.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -44,12 +46,14 @@ import { LoginComponent } from './componentes/login/login.component';
     AddButtonComponent,
     DeleteButtonComponent,
     EditButtonComponent,
-    LoginComponent
+    LoginComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

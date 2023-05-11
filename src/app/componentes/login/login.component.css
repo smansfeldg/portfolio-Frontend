@@ -15,11 +15,10 @@ body{
   display: grid;
   place-items: center;
   text-align: center;
-  background-image: linear-gradient(var(--color-base), black), 
-  url(https://blackpooldigital.com/cache/containers/assets/guia-seo-ig-bpd.jpg/3963319b4bab76b526320e4681882904.jpg);
+  background-image: linear-gradient(var(--color-base), black), url(https://blackpooldigital.com/cache/containers/assets/guia-seo-ig-bpd.jpg/3963319b4bab76b526320e4681882904.jpg);
   background-size: cover;
   background-position: center;
-} 
+}
 .container{
   width: 330px;
   background: var(--color-base2);
