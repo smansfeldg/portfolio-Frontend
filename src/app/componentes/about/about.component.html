@@ -1,15 +1,22 @@
+<!--
 <section id="about" class="full-height px-lg-5">
 
     <div class="container">
         <div class="row">
             <div class="col-lg-10">
                 <div class="cabecera" data-aos="fade-up">
-                    <h1 class="display-4 fw-bold" data-aos="fade-up">Soy un <span class="text-brand">{{miporfolio.profession}}</span> de  BUENOS AIRES, AR.</h1> 
-                    <i class="las la-edit edit-icon"></i>
+                    <h1 class="display-4 fw-bold" data-aos="fade-up">Soy un <span class="text-brand">{{miporfolio.persona.profesion}}</span> de  {{miporfolio.persona.ciudad}}.</h1> 
+
+                    <button type="button" class="icono-edit ">
+                        <i role="button" class="las la-edit edit-icon"></i>
+                    </button>
+
                 </div>
                 <div class="cabecera" data-aos="fade-up">
-                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hola, me llamo {{miporfolio.name}}, soy programador web, y desarrollador de aplicaiones multiplataforma.</p>
-                    <i class="las la-edit edit-icon"></i>
+                    <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hola, me llamo {{miporfolio.persona.nombre}} {{miporfolio.persona.apellido}}. {{miporfolio.persona.about}}</p>
+                    <button type="button" class="icono-edit ">
+                        <i role="button" class="las la-edit edit-icon"></i>
+                    </button>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="600"> 
                     <a href="#proyects" class="btn btn-brand me-3">Explora mi trabajo</a>
@@ -18,5 +25,20 @@
         </div>
     </div>
 
-</section>
+</section> 
+-->
+<section id="about" class="full-height px-lg-5">
 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <h1 class="display-4 fw-bold" data-aos="fade-up">Soy un <span class="text-brand">Desarrollador Web Full Stack Jr</span> de  BUENOS AIRES, AR</h1>
+                <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">Hola, me llamo Santiago Mansfeld, soy programador web, y desarrollador de aplicaiones multiplataforma.</p>
+                <div data-aos="fade-up" data-aos-delay="600">
+                    <a href="#proyects" class="btn btn-brand me-3">Explora mi trabajo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -8,6 +8,7 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
 })
 export class AboutComponent {
   miporfolio:any;
+
   constructor(private datosPorfolio:PorfolioService){}
 
   ngOnInit(): void{
@@ -15,6 +16,6 @@ export class AboutComponent {
       console.log(data);
       this.miporfolio=data;
     });
-  }
+  };
 
 }

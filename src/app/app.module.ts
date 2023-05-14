@@ -12,7 +12,7 @@ import { EducationComponent } from './componentes/education/education.component'
 import { ExperienceComponent } from './componentes/experience/experience.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-// Importar HttpClientModule
+
 import { HttpClientModule } from '@angular/common/http';
 import { SkillEditComponent } from './componentes/skills/skill-edit/skill-edit.component';
 import { SkillAddItemComponent } from './componentes/skills/skill-add-item/skill-add-item.component';
@@ -25,6 +25,7 @@ import { EditButtonComponent } from './componentes/edit-component/edit-button/ed
 import { LoginComponent } from './componentes/login/login.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AboutModalComponent } from './componentes/about/about-modal/about-modal.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     DeleteButtonComponent,
     EditButtonComponent,
     LoginComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    AboutModalComponent
   ],
   imports: [
     BrowserModule,

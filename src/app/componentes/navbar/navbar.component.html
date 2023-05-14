@@ -6,7 +6,11 @@
             <span class="h3 fw-bold d-block d-lg-none">Santiago Mansfeld</span> 
             <div class="d-none d-lg-block">
                 <a class="margen">
-                    <div class="overlay rounded-circle"><i class="las la-edit"></i></div>
+                    <div class="overlay rounded-circle">
+                        <button type="button" class="icono-edit " data-toggle="modal" data-target="#exampleModal">
+                            <i class="las la-edit"></i>
+                        </button>
+                    </div>
                     <img src="https://i.pinimg.com/564x/19/7d/08/197d08e78d86a8fbd780de97eabf7801.jpg" class="rounded-circle" alt="">
                 </a>
             </div>
@@ -28,7 +32,7 @@
                     <a class="nav-link" href="#proyects">Proyectos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#education">Educacion</a>
+                    <a class="nav-link icono-edit" href="#education">Educacion</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#experience">Experiencia</a>
@@ -41,14 +45,11 @@
         </div>
         <div class="social-icons d-none d-lg-block">
             <p></p>
-            <p></p>
-            <p></p>
             <a target="_blank" href="https://www.linkedin.com/in/santiago-mansfeld-4778171a7/"><i class="lab la-linkedin"></i></a>
             <a target="_blank" href="https://github.com/smansfeldg"><i class="lab la-github"></i></a>
         </div>
             <p></p>
-            <p></p>
-            <p></p>
-            <a href="">Cerrar Sesión</a>
+
+            <button class="icono-edit" routerLink="/login">Cerrar Sesión</button>
     </div>
 </nav>

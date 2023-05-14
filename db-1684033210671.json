@@ -1,0 +1,23 @@
+{
+  "id": {
+    "value": 100
+  },
+  "nombre": {
+    "value": "Santiago"
+  },
+  "apellido": {
+    "value": "Mansfeld"
+  },
+  "ciudad": {
+    "value": "Buenos Aires, AR"
+  },
+  "profesion": {
+    "value": "Desarrollador Web Full Stack Jr"
+  },
+  "about": {
+    "value": "Soy programador web, y desarrollador de aplicaciones multiplataforma."
+  },
+  "url_foto": {
+    "value": "https://i.pinimg.com/564x/19/7d/08/197d08e78d86a8fbd780de97eabf7801.jpg"
+  }
+}
